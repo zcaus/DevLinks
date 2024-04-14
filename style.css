@@ -9,9 +9,9 @@
   --bg-url: url(./assets/bg-mobile.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
-  --surface-color-hover: rgba(255,255,255,0.05);
+  --surface-color-hover: rgba(255, 255, 255, 0.05);
   --highlight-color: rgba(255, 255, 255, 0.3);
-  --switch-bg-url: url(./assets/moon-stars.svg) 
+  --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
 .light {
@@ -19,11 +19,10 @@
   --bg-url: url(./assets/bg-mobile-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
-  --surface-color-hover: rgba(0,0,0,0.02);
+  --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
-  --switch-bg-url: url(./assets/sun.svg) 
+  --switch-bg-url: url(./assets/sun.svg);
 }
-
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
@@ -31,7 +30,7 @@ body {
 
 body * {
   font-family: "Inter", sans-serif;
-  color: var(--text-color)
+  color: var(--text-color);
 }
 
 #container {
@@ -67,7 +66,6 @@ body * {
   margin: 4px auto;
 }
 
-
 #switch button {
   width: 32px;
   height: 32px;
@@ -81,7 +79,7 @@ body * {
   z-index: 1;
 }
 
-.light #switch button{
+.light #switch button {
   right: 0;
   left: initial;
 }
@@ -95,7 +93,6 @@ body * {
   -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
 }
-
 
 /*links*/
 
